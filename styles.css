@@ -108,13 +108,18 @@ p{
 @media only screen and (min-width: 1000px){
 
     body{
-        
+        background-image: url("./images/bg-desktop.svg");
     }
     
     main{
         text-align: left;
         padding: 0 4rem;
         margin: 2rem 2rem 0 2rem;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image:
     }
 
     .container{
@@ -126,7 +131,7 @@ p{
     }
 
     .logo{
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
     }
 
     .text{
@@ -144,9 +149,6 @@ p{
         margin-bottom: 3rem;
     }
 
-    body{
-        background-image: url("./images/bg-desktop.svg");
-    }
 
     .illustration{
         max-width: 70%;
